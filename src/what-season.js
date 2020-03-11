@@ -1,4 +1,4 @@
-module.exports = function getSeason(/* date */) {
+module.exports = function getSeason( date ) {
   if(!date)  return "Unable to determine the time of year!";
   else if (!(date instanceof Date)) throw Error;
   else if (isNaN(date)) return "Unable to determine the time of year!";
