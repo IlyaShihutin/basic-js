@@ -1,4 +1,4 @@
-module.exports = function createDreamTeam(/* members */) {
+module.exports = function createDreamTeam( members ) {
   if(!Array.isArray(members)) return false;
 let arr=[];
 for (let i=0; i<members.length; i++)
