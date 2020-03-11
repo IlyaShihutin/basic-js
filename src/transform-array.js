@@ -1,4 +1,4 @@
-module.exports = function transform(/* arr */) {
+module.exports = function transform( arr ) {
     if (!arr) throw new Error("Ошибка!");
     if( !Array.isArray(arr) ) throw new Error('input is not array');
     let mas=[];
