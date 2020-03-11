@@ -1,4 +1,4 @@
-module.exports = function countCats(/* matrix */) {
+module.exports = function countCats( matrix ) {
   let a=0;
   for (let i=0; i<  matrix.length; i++)
   {
